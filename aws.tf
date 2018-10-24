@@ -3,3 +3,7 @@ provider "aws" {
   secret_key = "${aws_secret_key}"
   region     = "us-west-2b"
 }
+
+outpout "aws" {
+  value = "Integration is successful................."
+  }
