@@ -4,6 +4,6 @@ provider "aws" {
   region     = "us-west-2b"
 }
 
-outpout "message" {
+outpout "aws" {
   value = "Integration is successful................."
   }
